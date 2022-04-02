@@ -1,0 +1,52 @@
+hr{
+    position: absolute;
+    width: 500px;
+    top: 60px;
+    left: 250px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+.bar{
+    position: absolute;
+    left: 830px;
+    top: 65px;
+    color: white;
+    font-family: 'Barlow Condensed';
+    width: 580px;
+    letter-spacing: 3px;
+}
+.bar1{
+    cursor: pointer;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.bar1:hover, .bar1:focus {
+    background-size: 100% 2px;
+}
+
+.navTransparente{
+    position: absolute;
+    height: 96px;
+    width: 830px;
+    left: 710px;
+    top: 32px;
+    border-radius: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.226));
+    background-color: rgba(255, 255, 255, 0.041);
+    backdrop-filter: blur(10.5485px);
+}
+.estrella{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    background-image: url(/starter-code/assets/home/estrella.png);
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}

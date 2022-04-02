@@ -1,0 +1,341 @@
+.moonEffect{
+    animation: fadeInMoon ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.marsEffect{
+    animation: fadeInMars ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.europaEffect{
+    animation: fadeInEuropa ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.titanEffect{
+    animation: fadeInTitan ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.moonImgEffect{
+    animation: fadeInMoonImg ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.marsImgEffect{
+    animation: fadeInMarsImg ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.europaImgEffect{
+    animation: fadeInEuropaImg ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.titanImgEffect{
+    animation: fadeInTitanImg ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.moonDescriptionEffect{
+    animation: fadeInMoonDescription ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.marsDescriptionEffect{
+    animation: fadeInMarsDescription ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.titanDescriptionEffect{
+    animation: fadeInTitanDescription ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.europaDescriptionEffect{
+    animation: fadeInEuropaDescription ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.moonTravelEffect{
+    animation: fadeInMoonTravel ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.marsTravelEffect{
+    animation: fadeInMarsTravel ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.titanTravelEffect{
+    animation: fadeInTitanTravel ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.europaTravelEffect{
+    animation: fadeInEuropaTravel ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.moonDistanceEffect{
+    animation: fadeInMoonDistance ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.marsDistanceEffect{
+    animation: fadeInMarsDistance ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.titanDistanceEffect{
+    animation: fadeInTitanDistance ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.europaDistanceEffect{
+    animation: fadeInEuropaDistance ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.articuloCrewEffect{
+    animation: fadeInArticuloCrew ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.articuloCrewMark{
+    animation: fadeInArticuloCrewMark ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.articuloCrewDou{
+    animation: fadeInArticuloCrewDou ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.articuloCrewVic{
+    animation: fadeInArticuloCrewVic ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.articuloCrewAnu{
+    animation: fadeInArticuloCrewAnu ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInArticulo {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInAparicion {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInTitan {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInEuropa {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMoon {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMars {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMoonImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMarsImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInTitanImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInEuropaImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMoonDescription {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMarsDescription {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInTitanDescription {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInEuropaDescription {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMoonTravel {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMarsTravel {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInTitanTravel {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInEuropaTravel {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMoonDistance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInMarsDistance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInTitanDistance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInEuropaDistance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInArticuloCrew {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInArticuloCrewMark {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInArticuloCrewDou {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInArticuloCrewVic{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInArticuloCrewAnu{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,106 @@
+body{
+    overflow: hidden;
+}
+//crew
+.crewName{
+    position: absolute;
+    left: 0%;
+    right: 1.11%;
+    margin-top: 0;
+    top: 170px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FFFFFF;
+    transition: .3s;
+    width: max-content;
+}
+.crewName:hover{
+    cursor: pointer;
+    font-size: 50px;
+    transition: .3s;
+}
+.crewCont{
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    height: 500px;
+    transition: .8s;
+}
+.crewCont:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.meet{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Barlow Condensed';
+    font-size: 28px;
+    bottom: 410px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.724999904632568px;
+    text-align: left;
+}
+.crewImg{
+    background-color: transparent;
+    width: 940px;
+    height: 610px;
+    bottom: 52px;
+    
+}
+.crewImg2{
+    position: absolute;
+    width: 490px;
+    height: 200px;
+    left: 900px;
+}
+.articuloCrew{
+    position: absolute;
+    width: 450px;
+    height: 382px;
+    left: 280px;
+    top: 260px;
+}
+.role{
+    position: absolute;
+    width: 214px;
+    height: 37px;
+    left: 0px;
+    top: 120px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: max-content;
+}
+.listaCirculitos{
+    position: absolute;
+    width: 202px;
+    height: 15px;
+    right: 1070px;
+    top: 720px;
+}
+.circulito{
+width: 15px;
+height: 15px;
+border-radius: 30px;
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.17;
+transition: .3s;
+}
+.circulitoActivo{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background: #ffffff;
+}

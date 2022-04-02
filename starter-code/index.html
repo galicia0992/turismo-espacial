@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+
+  <!--Styles-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body id="bodyElement">
+<container class="container">
+  <nav class="d-flex flex-row">
+    <div class="estrella w-50"></div>
+    <hr>
+    <div class="navTransparente"></div>
+    <div class="d-flex flex-row align-items-center justify-content-around bar">
+      <p class="bar1" id="home"><b>00</b>  HOME</p>
+      <P class="bar1" id="destination"><b>01</b>  DESTINATION</P>
+      <P class="bar1" id="crew"><b>02</b>  CREW</P>
+      <P class="bar1" id="technology"><b>03</b>  TECHNOLOGY</P>
+    </div>
+  </nav>
+  <div class="d-flex justify-content-center align-items-center contCir" id="explore">
+    <p class="pick d-none" id="pick"><b style="color: rgb(71, 69, 69);">01</b> PICK YOUR DESTINATION</p>
+    <div class="cExploreInt d-flex align-items-center justify-content-center" id="cExploreInt"></div>
+    <div class="cExplore d-flex align-items-center justify-content-center" id="cExplore"><p class="pExplore" id="pExplore">EXPLORE</p><img src="" id="celestes"  class="d-none"></a></div>
+  </div>
+  <article class="articulo" id="articulo">
+    <div class="d-flex flex-row align-items-center justify-content-around navBarMini d-none" id="navBarMini">
+      <p class="barMini" id="moon">MOON</p>
+      <P class="barMini" id="mars">MARS</P>
+      <P class="barMini" id="europa">EUROPA</P>
+      <P class="barMini" id="titan">TITAN</P>
+    </div>
+    <p class="meet d-none" id="meet"><b style="color: rgb(71, 69, 69);">02</b> MEET YOUR CREW</p>
+    <header class="travel" id="travel">SO, YOU WANT TO TRAVEL TO</header>
+    <h6 class="space" id="space">SPACE</h6>
+    <p class="face" id="face">Let’s face it; if you want to go to space, you might as well genuinely go to 
+      outer space and not hover kind of on the edge of it. Well sit back, and relax 
+      because we’ll give you a truly out of this world experience!</p>
+      <hr class="separador d-none" id="separador">
+      <div class="d-flex flex-row info justify-content-between d-none" id="info">
+        <div class="d-flex flex-column">
+          <p class="distance" >AVG. DISTANCE</p>
+        <span class="travelTimeText" id="distance"></span>
+        </div>
+        <div class="d-flex flex-column">
+          <p class="travelTime">EST. TRAVEL TIME</p>
+          <span class="travelTimeText" id="travelTime"></span>
+        </div>
+      </div>
+  </article>
+  <div class=" d-flex flex-row justify-content-evenly listaCirculitos d-none" id="circulos">
+    <div class="circulitoActivo" id="circulo1"></div>
+    <div class="circulito" id="circulo2"></div>
+    <div class="circulito" id="circulo3"></div>
+    <div class="circulito" id="circulo4"></div>
+  </div> 
+  
+</container>
+<div class="estrella"></div>
+
+</body>
+<script src="./js/main.js" type="module"></script>
+</html>
