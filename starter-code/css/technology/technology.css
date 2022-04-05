@@ -1,0 +1,114 @@
+.listaCirculitosVertical {
+  position: absolute;
+  width: 25px;
+  height: 330px;
+  left: 150px;
+  bottom: 50px;
+}
+
+.circulitoVertical {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff4b;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #ffffff;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.circulitoVertical:hover {
+  color: black;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.circulitoVerticalActivo {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background: #ffffff;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.terminology {
+  position: absolute;
+  width: 214px;
+  height: 37px;
+  left: 0px;
+  top: 120px;
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #D0D6F9;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.vehicle {
+  position: absolute;
+  left: 0%;
+  right: 1.11%;
+  margin-top: 0;
+  top: 170px;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #FFFFFF;
+  -webkit-transition: .3s;
+  transition: .3s;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.vehicle:hover {
+  cursor: pointer;
+  font-size: 58px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.vehicleAparicion {
+  position: absolute;
+  left: 0px;
+  top: 250px;
+  height: 500px;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.vehicleImg {
+  background-color: transparent;
+  width: 500px;
+  height: 520px;
+}
+
+.vehicleImg2 {
+  position: absolute;
+  width: 490px;
+  height: 200px;
+  left: 1050px;
+  bottom: 180px;
+}
+/*# sourceMappingURL=technology.css.map */

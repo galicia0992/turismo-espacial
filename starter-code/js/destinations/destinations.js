@@ -1,5 +1,5 @@
 import {navBarMini, bgHome, cExplore, articulo, explore, space, face, pick, travel,
-    separador, celestes,travelTime, distance, information, meet, arr, circulos, body, cExploreInt} from "../constantes.js"
+    separador, celestes,travelTime, distance, information, meet, arr, circulos, body, cExploreInt, launch, circulosGrandes} from "../constantes.js"
 async function destinationInfo(){
     try {
         const info = await fetch("./data.json")
@@ -13,7 +13,13 @@ async function destinationInfo(){
                         body.style.backgroundImage = 'url("./assets/destination/background-destination-desktop.jpg")'
                         meet.classList.remove("d-none")
                         travel.classList.add("travel")
+                        launch.classList.add("d-none")
+                        space.classList.remove("vehicle")
+                        circulosGrandes.classList.add("d-none")
+                        cExplore.classList.remove("vehicleImg2")
+                        celestes.classList.remove("vehicleImg")
                         cExploreInt.classList.add("d-none")
+                        explore.classList.remove("vehicleAparicion")
                         celestes.src = item2.images.png
                         celestes.classList.remove("d-none")
                         celestes.classList.add("celestes")

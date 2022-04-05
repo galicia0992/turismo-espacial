@@ -52,10 +52,18 @@ const circulo2 = document.querySelector("#circulo2")
 const circulo3 = document.querySelector("#circulo3")
 const circulo4 = document.querySelector("#circulo4")
 
+//technology
+const circulosGrandes = document.querySelector("#circulosGrandes")
+const circuloGrande1 = document.querySelector("#circuloGrande1")
+const circuloGrande2 = document.querySelector("#circuloGrande2")
+const circuloGrande3 = document.querySelector("#circuloGrande3")
+const launch = document.querySelector("#launch")
+
 //variables
 const arr = []
 
 export{home, destination, crew, technology, navBarMini, bgHome, cExplore, articulo, explore, space, face, pick, travel,
     separador, celestes, moon, mars, europa, titan, travelTime, distance, information, a, meet, arr, pExplore, circulo1,
-    circulo2, circulo3, circulo4, circulos, markCrew, body, cExploreInt
+    circulo2, circulo3, circulo4, circulos, markCrew, body, cExploreInt, circulosGrandes, circuloGrande1, circuloGrande2,
+    circuloGrande3, launch
 }

@@ -1,5 +1,6 @@
 import{navBarMini, bgHome, cExplore, articulo, explore, space, face, pick, travel,
-    separador, celestes, information,meet, arr, pExplore, circulo1, circulo2, circulo3, circulo4, circulos, body, cExploreInt} from "../constantes.js"
+    separador, celestes, information,meet, arr, pExplore, circulo1, circulo2, circulo3, circulo4, circulos, body,
+     cExploreInt, launch, circulosGrandes} from "../constantes.js"
  
 async function destCrew(){
     try {
@@ -16,10 +17,15 @@ async function destCrew(){
                         body.style.backgroundImage = 'url("./assets/crew/background-crew-desktop.jpg")'
                         celestes.src = item2.images.png
                         celestes.classList.remove("d-none")
+                        circulosGrandes.classList.add("d-none")
+                        cExplore.classList.remove("vehicleImg2")
+                        celestes.classList.remove("vehicleImg")
                         celestes.classList.remove("celestes")
                         celestes.classList.add("crewImg")
                         circulos.classList.remove("d-none")
+                        explore.classList.remove("vehicleAparicion")
                         pick.classList.add("d-none")
+                        launch.classList.add("d-none")
                         meet.classList.remove("d-none")
                         travel.classList.remove("d-none")
                         navBarMini.classList.add("d-none")
@@ -41,6 +47,7 @@ async function destCrew(){
                         space.classList.add("crewName")
                         travel.classList.remove("travel")
                         travel.classList.add("role")
+                        travel.classList.remove("terminology")
                         circulo1.classList.remove("circulito")
                         circulo1.classList.add("circulitoActivo")
                         circulo2.classList.remove("circulitoActivo")

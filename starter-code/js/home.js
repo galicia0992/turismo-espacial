@@ -1,18 +1,25 @@
-import{navBarMini, bgHome, cExplore, articulo, explore, space, face, pick, travel,
-    separador, celestes, information, pExplore, circulos, body, meet, cExploreInt} from "./constantes.js"
+import{navBarMini, cExplore, articulo, explore, space, face, pick, travel,
+    separador, celestes, information, pExplore, circulos, body, meet, cExploreInt, launch, circulosGrandes} from "./constantes.js"
 
 
 function homePage(){
     body.style.backgroundImage = 'url("./assets/home/background-home-desktop.jpg")'
     meet.classList.add("d-none")
+    circulosGrandes.classList.add("d-none")
+    space.classList.remove("vehicle")
     celestes.classList.add("d-none")
     celestes.classList.remove("celestes")
+    explore.classList.remove("vehicleAparicion")
+    launch.classList.add("d-none")
     circulos.classList.add("d-none")
     pick.classList.add("d-none")
     travel.classList.remove("d-none")
     travel.classList.add("travel")
+    travel.classList.remove("terminology")
     navBarMini.classList.add("d-none")
     cExplore.classList.add("cExplore")
+    cExploreInt.classList.remove("d-none")
+    cExplore.classList.remove("vehicleImg2")
     separador.classList.add("d-none")
     cExplore.classList.remove("crewImg2")
     cExploreInt.classList.remove("d-none")
